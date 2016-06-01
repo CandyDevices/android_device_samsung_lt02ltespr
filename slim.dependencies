@@ -1,0 +1,42 @@
+[
+    {
+        "repository": "SlimRoms/device_samsung_qcom-common",
+        "target_path": "device/samsung/qcom-common",
+        "branch": "mm6.0"
+    },
+    {
+        "repository": "SlimRoms/device_qcom_common",
+        "target_path": "device/qcom/common",
+        "branch": "mm6.0"
+    },
+    {
+        "repository": "SlimRoms/hardware_samsung",
+        "target_path": "hardware/samsung",
+        "branch": "mm6.0"
+    },
+    {
+        "repository": "FaArIsH/android_device_samsung_msm8930-common",
+        "target_path": "device/samsung/msm8930-common",
+        "branch": "slim"
+    },
+    {
+        "repository": "csendre/android_kernel_samsung_msm8930-common",
+        "target_path": "kernel/samsung/msm8930-common",
+        "branch": "cm-13.0"
+    },
+    {
+        "repository": "FaArIsH/android_device_samsung_lt02ltexx-common",
+        "target_path": "device/samsung/lt02ltexx-common",
+        "branch": "slimmm"
+    },
+    {
+        "repository": "FaArIsH/proprietary_vendor_samsung",
+        "target_path": "vendor/samsung",
+        "branch": "master"
+    },
+    {
+        "repository": "SlimRoms/android_external_stlport",
+        "target_path": "external/stlport",
+        "branch": "mm6.0"
+    }
+]
