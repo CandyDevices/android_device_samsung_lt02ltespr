@@ -38,4 +38,3 @@ ro.config.vc_call_vol_steps=7
 ro.sf.hwrotation=270
 ro.lcd_min_brightness=50
 ro.lcd_brightness=180
-qemu.hw.mainkeys=0
