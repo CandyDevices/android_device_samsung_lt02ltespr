@@ -56,6 +56,14 @@ void vendor_load_properties()
         property_set("ro.product.device", "lt02ltespr");
         property_set("telephony.lteOnCdmaDevice", "1");
         property_set("ro.telephony.default_network", "8");
+        property_set("ro.product.locale.region","US");
+        property_set("gsm.sim.operator.iso-country", "US");
+        property_set("ro.cdma.home.operator.numeric", "310120");
+        property_set("gsm.sim.operator.numeric", "310120");
+        property_set("gsm.operator.numeric", "310120");
+        property_set("ro.cdma.home.operator.alpha", "Sprint");
+        property_set("gsm.sim.operator.alpha", "Sprint");
+        property_set("gsm.operator.alpha", "310120");
     } else if (strstr(bootloader, "T217T")) {
         /* lt02ltetmo */
         property_set("ro.build.fingerprint", "samsung/lt02ltetmo/lt02ltetmo:4.4.2/KOT49H/T217TVPUBOH1:user/release-keys");
