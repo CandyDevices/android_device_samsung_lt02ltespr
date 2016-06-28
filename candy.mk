@@ -1,5 +1,5 @@
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/candy/config/common_full_phone.mk)
+# Inherit some common Candy stuff.
+$(call inherit-product, vendor/candy/config/common_full_tablet_lte.mk)
 
 $(call inherit-product, device/samsung/lt02ltespr/full_lt02ltespr.mk)
 
